@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  checkOutBtn.addEventListener("click", () => {
+  checkOutButton.addEventListener("click", () => {
     cart.length = 0;
     alert("Checkout successfully");
     renderCart();

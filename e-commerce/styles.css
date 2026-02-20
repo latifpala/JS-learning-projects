@@ -58,8 +58,24 @@ h2 {
 
 #cart-items {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
+#cart-items div{
+  display: flex;
+  justify-content: space-between;
+}
+#cart-items button.remove-btn {
+  background-color: #963d42;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 #cart-total {
   text-align: right;
 }
@@ -73,6 +89,7 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
 
 #checkout-btn:hover {
   background-color: #3700b3;
